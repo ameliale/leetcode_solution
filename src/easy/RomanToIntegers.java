@@ -8,6 +8,7 @@ public class RomanToIntegers {
 		// TODO Auto-generated method stub
 		System.out.println(RomanToIntergers("MCMXCIV"));
 		System.out.println(RomanToIntergers("XXVII"));
+		int[] nums = new int[]{1, 2, 3};
 		
 	}
 	
