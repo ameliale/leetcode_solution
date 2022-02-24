@@ -8,8 +8,8 @@ public class IntersectionOfArrays {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int[] nums1 = {1, 2};
-		int[] nums2 = {1, 1};
+		int[] nums1 = {1, 2, 2};
+		int[] nums2 = {2, 2};
 	
 		
 		System.out.println(Arrays.toString(intersect(nums1, nums2)));
@@ -18,7 +18,7 @@ public class IntersectionOfArrays {
 	
 	public static int[] intersect(int[] nums1, int[] nums2)
 	{
-		if (nums1.length > nums2.length) 
+		if (nums2.length > nums1.length) 
         {
             return intersect(nums2, nums1);
         }
